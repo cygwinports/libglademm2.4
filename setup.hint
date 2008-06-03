@@ -1,4 +1,4 @@
 category: Gnome
-requires: cygwin glibmm24 gtkmm24 libglade2 libsigc++20
+requires: cygwin glib2 glibmm24 gtkmm24 libglade2 libsigc++20
 sdesc: "C++ bindings for libglade-2.4 (runtime)"
 ldesc: "Official C++ bindings for libglade-2.4"
