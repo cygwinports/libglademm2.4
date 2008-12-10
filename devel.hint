@@ -1,5 +1,0 @@
-category: Gnome
-requires: cygwin libglademm24 glib2-devel glibmm24-devel gtkmm24-devel libglade2-devel libsigc++20-devel
-external-source: libglademm24
-sdesc: "C++ bindings for libglade-2.4 (development)"
-ldesc: "Official C++ bindings for libglade-2.4"

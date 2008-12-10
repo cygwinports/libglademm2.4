@@ -1,27 +1,27 @@
-libglademm24
+libglademm2.4
 ------------------------------------------
 Official C++ bindings for libglade-2.4.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  glib2-2.16.3-1
-  glibmm24-2.16.2-1
-  gtkmm24-2.12.7-1
-  libglade2-2.6.2-1
-  libsigc++20-2.2.2-1
+  cygwin-1.5.25-15
+  libglade2.0_0-2.6.3-2
+  libglib2.0_0-2.18.3-1
+  libglibmm2.4_1-2.18.1-1
+  libgtkmm2.4_1-2.14.3-1
+  libsigc2.0_0-2.2.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20080523-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -33,207 +33,86 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libglademm24-2.6.6-1-src.tar.bz2
+  unpack libglademm2.4-2.6.7-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libglademm24-2.6.6-1.cygport all
+  cygport ./libglademm2.4-2.6.7-1.cygport all
 
 This will create:
-  /usr/src/libglademm24-2.6.6-1.tar.bz2
-  /usr/src/libglademm24-2.6.6-1-src.tar.bz2
-  /usr/src/libglademm24-devel-2.6.6-1-src.tar.bz2
+  /usr/src/libglademm2.4-2.6.7-1.tar.bz2
+  /usr/src/libglademm2.4_1-2.6.7-1-src.tar.bz2
+  /usr/src/libglademm2.4-devel-2.6.7-1-src.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libglademm24)
+(libglademm2.4_1)
   /usr/bin/cygglademm-2.4-1.dll
-  /usr/share/doc/libglademm24-2.6.6/AUTHORS
-  /usr/share/doc/libglademm24-2.6.6/ChangeLog
-  /usr/share/doc/libglademm24-2.6.6/COPYING
-  /usr/share/doc/libglademm24-2.6.6/INSTALL
-  /usr/share/doc/libglademm24-2.6.6/NEWS
-  /usr/share/doc/libglademm24-2.6.6/README
-  /usr/share/doc/libglademm24-2.6.6/TODO
+  /usr/share/doc/libglademm2.4-2.6.7/AUTHORS
+  /usr/share/doc/libglademm2.4-2.6.7/COPYING
+  /usr/share/doc/libglademm2.4-2.6.7/ChangeLog
+  /usr/share/doc/libglademm2.4-2.6.7/INSTALL
+  /usr/share/doc/libglademm2.4-2.6.7/NEWS
+  /usr/share/doc/libglademm2.4-2.6.7/README
 
-(libglademm24-doc)
+(libglademm2.4-devel)
+  /usr/include/libglademm-2.4/libglademm.h
   /usr/include/libglademm-2.4/libglademm/init.h
   /usr/include/libglademm-2.4/libglademm/private/xml_p.h
   /usr/include/libglademm-2.4/libglademm/variablesmap.h
   /usr/include/libglademm-2.4/libglademm/wrap_init.h
   /usr/include/libglademm-2.4/libglademm/xml.h
-  /usr/include/libglademm-2.4/libglademm.h
+  /usr/lib/libglademm-2.4.dll.a
+  /usr/lib/libglademm-2.4.la
   /usr/lib/libglademm-2.4/include/libglademmconfig.h
   /usr/lib/libglademm-2.4/proc/m4/convert.m4
   /usr/lib/libglademm-2.4/proc/m4/convert_libglademm.m4
-  /usr/lib/libglademm-2.4.dll.a
-  /usr/lib/libglademm-2.4.la
   /usr/lib/pkgconfig/libglademm-2.4.pc
   /usr/share/devhelp/books/libglademm-2.4/libglademm-2.4.devhelp
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/annotated.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classes.html
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGlib_1_1Exception.html
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGlib_1_1Exception__inherit__graph.dot
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGlib_1_1Object.html
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGlib_1_1Object__inherit__graph.dot
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1VariablesMap-members.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1VariablesMap.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1Xml-members.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1Xml.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1XmlError-members.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1XmlError.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1XmlError__inherit__graph.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1Xml__inherit__graph.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/dirs.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/dir_000000.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/dir_000000_dep.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/dir_000001.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/dir_000001_dep.png
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1XmlError__inherit__graph.dot
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classGnome_1_1Glade_1_1Xml__inherit__graph.dot
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/classes.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/doxygen.css
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/doxygen.png
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/files.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/functions.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/functions_func.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/functions_rela.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/functions_type.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/functions_vars.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/graph_legend.dot
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/graph_legend.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/graph_legend.png
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/hierarchy.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/index.html
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__0.dot
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherits.html
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__0.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__1.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__10.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__100.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__101.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__102.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__103.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__104.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__105.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__106.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__107.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__108.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__109.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__11.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__110.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__111.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__112.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__113.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__114.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__115.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__116.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__117.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__118.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__119.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__12.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__120.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__121.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__122.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__13.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__14.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__15.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__16.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__17.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__18.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__19.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__2.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__20.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__21.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__22.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__23.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__24.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__25.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__26.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__27.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__28.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__29.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__3.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__30.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__31.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__32.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__33.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__34.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__35.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__36.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__37.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__38.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__39.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__4.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__40.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__41.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__42.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__43.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__44.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__45.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__46.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__47.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__48.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__49.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__5.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__50.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__51.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__52.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__53.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__54.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__55.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__56.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__57.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__58.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__59.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__6.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__60.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__61.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__62.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__63.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__64.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__65.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__66.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__67.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__68.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__69.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__7.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__70.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__71.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__72.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__73.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__74.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__75.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__76.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__77.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__78.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__79.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__8.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__80.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__81.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__82.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__83.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__84.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__85.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__86.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__87.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__88.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__89.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__9.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__90.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__91.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__92.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__93.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__94.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__95.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__96.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__97.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__98.png
-  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/inherit__graph__99.png
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/init_8h.html
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/namespaceGlib.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/namespaceGnome.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/namespaceGnome_1_1Glade.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/namespaces.html
+  /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/tabs.css
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/variablesmap_8h.html
   /usr/share/doc/gnomemm-2.6/libglademm-2.4/docs/reference/html/xml_8h.html
 
 --------------------
 
 Port Notes:
+
+----- version 2.6.7-1 -----
+Version bump.
 
 ----- version 2.6.6-1 -----
 Version bump.

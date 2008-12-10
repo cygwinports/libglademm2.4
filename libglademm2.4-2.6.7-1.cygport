@@ -1,0 +1,5 @@
+inherit gtkmm
+
+PKG_NAMES="${PN} ${PN}_1 ${PN}-devel"
+libglademm2_4_1_CONTENTS="usr/bin/ usr/share/doc/Cygwin/ usr/share/doc/${P}/"
+libglademm2_4_devel_CONTENTS='usr/include/ usr/lib/ usr/share/devhelp/ usr/share/doc/gnomemm-2.6/'
