@@ -3,24 +3,26 @@ libglademm2.4
 Official C++ bindings for libglade-2.4.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.3-1
-  libglibmm2.4_1-2.18.1-1
-  libgtkmm2.4_1-2.14.3-1
-  libsigc2.0_0-2.2.3-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.0-1
+  libglibmm2.4_1-2.20.0-1
+  libgtkmm2.4_1-2.16.0-1
+  libsigc2.0_0-2.2.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.6a-2
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -50,12 +52,11 @@ Files included in the binary packages:
 
 (libglademm2.4_1)
   /usr/bin/cygglademm-2.4-1.dll
-  /usr/share/doc/libglademm2.4-2.6.7/AUTHORS
-  /usr/share/doc/libglademm2.4-2.6.7/COPYING
-  /usr/share/doc/libglademm2.4-2.6.7/ChangeLog
-  /usr/share/doc/libglademm2.4-2.6.7/INSTALL
-  /usr/share/doc/libglademm2.4-2.6.7/NEWS
-  /usr/share/doc/libglademm2.4-2.6.7/README
+  /usr/share/doc/libglademm2.4/AUTHORS
+  /usr/share/doc/libglademm2.4/COPYING
+  /usr/share/doc/libglademm2.4/ChangeLog
+  /usr/share/doc/libglademm2.4/NEWS
+  /usr/share/doc/libglademm2.4/README
 
 (libglademm2.4-devel)
   /usr/include/libglademm-2.4/libglademm.h
@@ -111,27 +112,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.6.7-1 -----
-Version bump.
-
------ version 2.6.6-1 -----
-Version bump.
-
------ version 2.6.5-1 -----
-Version bump.
-
------ version 2.6.4-1 -----
-Version bump.
-
------ version 2.6.2-1 -----
-Version bump.
-Created separate -devel package.
-
------ version 2.6.0-1 -----
-Update for libglade-2.5, built with gcc-3.4.
-
------ version 2.4.1-1 -----
-Initial release for Cygwin.
+----- version 2.6.7-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
