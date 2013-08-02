@@ -1,5 +1,0 @@
-category: Gnome
-requires: libgcc1 libglade2.0_0 libglib2.0_0 libglibmm2.4_1 libgtkmm2.4_1 libsigc2.0_0 libstdc++6
-external-source: libglademm2.4
-sdesc: "C++ bindings for libglade-2.4 (runtime)"
-ldesc: "Official C++ bindings for libglade-2.4"

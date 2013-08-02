@@ -1,0 +1,15 @@
+inherit gtkmm
+
+NAME="libglademm2.4"
+VERSION=2.6.7
+RELEASE=11
+CATEGORY="Libs"
+SUMMARY="C++ bindings for libglade2"
+DESCRIPTION="Official GTKmm C++ bindings for libglade-2.4"
+
+PATCH_URI="2.6.7-mm-common.patch"
+
+PKG_NAMES="${NAME}_1 ${NAME}-devel ${NAME}-doc"
+libglademm2_4_1_CONTENTS="usr/bin/cygglademm-2.4-1.dll usr/share/doc/${NAME}/"
+libglademm2_4_devel_CONTENTS="usr/include/ usr/lib/"
+libglademm2_4_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/gnomemm-2.6/"
